@@ -1,3 +1,7 @@
+""" V1 of code for Yes/No Checker
+"""
+
+
 # Ask user if they have played before
 show_instructions = input("Have you played the game before?: ")
 
