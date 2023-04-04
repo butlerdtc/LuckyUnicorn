@@ -12,7 +12,7 @@ while not valid:
         user_balance = int(input("How much do you want to pay? $"))
 
         # Check if amount is too high/low
-        if 0 < user_balance >= 10:
+        if 0 < user_balance <= 10:
             print(f"You are playing with ${user_balance}")
             valid = True
         else:

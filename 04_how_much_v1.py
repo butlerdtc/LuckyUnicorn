@@ -8,7 +8,7 @@ user_balance = int(input("How much do you want to pay? (must be a whole number"
                          "between $1 and $10) $"))
 
 # Loop to keep asking until valid input is entered
-while not 1 <= user_balance >= 10:
+while not 1 <= user_balance <= 10:
     print("Please enter a whole number between 1 and 10")
     # ask for user input
     user_balance = int(input("How much do you want to pay? $"))
