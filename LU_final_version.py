@@ -1,5 +1,4 @@
-""" LU final version - based on 00_LU_base_v3
-"""
+"""LU final version - based on 00_LU_base_v3."""
 import random
 
 
